@@ -1,8 +1,6 @@
 import sys
 from setuptools import setup
 
-if sys.version_info.major < 3:
-    sys.exit('Sorry, this library only supports Python 3')
 
 setup(
     name='littlefish',
